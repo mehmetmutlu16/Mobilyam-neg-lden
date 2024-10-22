@@ -120,3 +120,4 @@ C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\Mobilyam-neg-lde
 C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\Mobilyam-neg-lden\obj\Debug\net6.0\Mobilyaminegolden.pdb
 C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\Mobilyam-neg-lden\obj\Debug\net6.0\Mobilyaminegolden.genruntimeconfig.cache
 C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\Mobilyam-neg-lden\obj\Debug\net6.0\ref\Mobilyaminegolden.dll
+C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\Mobilyam-neg-lden\obj\Debug\net6.0\Mobilyaminegolden.sourcelink.json
