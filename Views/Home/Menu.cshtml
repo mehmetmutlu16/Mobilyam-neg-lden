@@ -1,0 +1,120 @@
+@{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<div class="bg-gradient-to-t from-black to-black text-white py-16">
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-white">Our <span class="text-red-500">Special</span> Menu</h2>
+        <p class="text-gray-400 mt-4 max-w-xl mx-auto">
+            Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s.
+        </p>
+    </div>
+
+    <!-- Kategori Butonları -->
+    <div class="flex justify-center space-x-4 mb-8" id="category-buttons">
+        <button class="category-button bg-gray-800 text-white px-6 py-3 rounded-lg shadow-md hover:bg-gray-700" data-category="all">Tüm Ürünler</button>
+        <button class="category-button bg-gray-800 text-white px-6 py-3 rounded-lg shadow-md hover:bg-gray-700" data-category="appetizers">Appetizers</button>
+        <button class="category-button bg-gray-800 text-white px-6 py-3 rounded-lg shadow-md hover:bg-gray-700" data-category="main">Main Course</button>
+        <button class="category-button bg-gray-800 text-white px-6 py-3 rounded-lg shadow-md hover:bg-gray-700" data-category="desserts">Desserts</button>
+        <button class="category-button bg-gray-800 text-white px-6 py-3 rounded-lg shadow-md hover:bg-gray-700" data-category="drinks">Drinks</button>
+    </div>
+
+    <!-- Ürün Kartları -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4" id="menu-items"></div>
+</div>
+
+<script>
+    const menuItemsData = [
+        {
+            name: "Bruschetta",
+            description: "Delicious grilled bread with tomato topping.",
+            price: "$8.99",
+            category: "appetizers",
+            image: "/images/desichowmain.webp"
+        },
+        {
+            name: "Grilled Steak",
+            description: "Perfectly grilled steak with garlic butter.",
+            price: "$25.99",
+            category: "main",
+            image: "/images/kebap.jpg"
+        },
+        {
+            name: "Cheesecake",
+            description: "Creamy cheesecake with a graham cracker crust.",
+            price: "$6.99",
+            category: "desserts",
+            image: "/images/chickentikka.jpg"
+        },
+        {
+            name: "Lemonade",
+            description: "Freshly squeezed lemonade with mint.",
+            price: "$3.99",
+            category: "drinks",
+            image: "/images/chickencharga.webp"
+        }
+    ];
+
+    // Ürünleri dinamik olarak oluştur ve sayfaya ekle
+    const menuContainer = document.getElementById('menu-items');
+
+    function renderMenuItems(items) {
+        menuContainer.innerHTML = ''; // Önce mevcut içerikleri temizle
+        items.forEach(item => {
+            const menuItemHTML = `
+                <div class="menu-item bg-gray-800 rounded-lg shadow-lg overflow-hidden" data-category="${item.category}">
+                    <img class="w-full h-48 object-cover" src="${item.image}" alt="${item.name}">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">${item.name}</h3>
+                        <p class="text-gray-400 mt-2">${item.description}</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-green-500 font-bold">${item.price}</span>
+                            <button class="bg-red-600 text-black px-4 py-2 rounded-md hover:bg-red-500">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            menuContainer.innerHTML += menuItemHTML; // Yeni ürünü ekle
+        });
+    }
+
+    // Tüm ürünleri başta göster
+    renderMenuItems(menuItemsData);
+
+    // Kategori butonlarını ve ürünleri seç
+    const categoryButtons = document.querySelectorAll('.category-button');
+
+    // Başlangıçta seçili kategori butonu
+    let selectedButton = categoryButtons[0];
+    selectedButton.classList.add('bg-red-600');
+
+    // Her butona tıklama olayı ekle
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Eski seçili butonun stilini kaldır
+            if (selectedButton) {
+                selectedButton.classList.remove('bg-red-600');
+                selectedButton.classList.add('bg-gray-800');
+            }
+
+            // Yeni seçili butonu kırmızı yap
+            button.classList.remove('bg-gray-800');
+            button.classList.add('bg-red-600');
+
+            // Yeni seçili butonu kaydet
+            selectedButton = button;
+
+            // Tıklanan kategoriyi al
+            const selectedCategory = button.getAttribute('data-category');
+
+            // Ürünleri filtrele
+            if (selectedCategory === "all") {
+                renderMenuItems(menuItemsData);  // Tüm ürünleri göster
+            } else {
+                const filteredItems = menuItemsData.filter(item => item.category === selectedCategory);
+                renderMenuItems(filteredItems);  // Filtrelenmiş ürünleri göster
+            }
+        });
+    });
+</script>

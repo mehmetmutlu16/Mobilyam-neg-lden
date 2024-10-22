@@ -1,0 +1,116 @@
+@{
+    ViewData["Title"] = "Sepet";
+    Layout = "~/Views/Shared/Layout.cshtml";
+
+}
+
+<div class="container mx-auto py-8 px-4">
+    <!-- Sepet Başlığı -->
+    <h2 class="text-3xl font-bold mb-6 text-white">Вашa корзина</h2>
+  
+    <!-- Ürünler ve Sağ Panel -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Ürünler -->
+      <div class="lg:col-span-2 space-y-4">
+        <!-- Ürün Kartı -->
+        <div class="flex justify-between bg-gray-800 p-4 rounded-lg items-center">
+          <div class="flex items-center space-x-4">
+            <img class="w-24 h-24 object-cover rounded-lg" src="/images/chef.webp" alt="Steak Image">
+            <div>
+              <h3 class="text-xl text-white">Стейк из семги</h3>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4">
+            <button class="bg-gray-600 text-white px-2 py-1 rounded">-</button>
+            <span class="text-white">2</span>
+            <button class="bg-gray-600 text-white px-2 py-1 rounded">+</button>
+          </div>
+          <div class="flex items-center space-x-4">
+            <span class="text-white">740₽</span>
+            <button class="text-red-500 hover:text-red-700"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+        <!-- Diğer Ürünler Aynı Formatta Tekrar Edilebilir -->
+  
+        <div class="flex justify-between bg-gray-800 p-4 rounded-lg items-center">
+          <div class="flex items-center space-x-4">
+            <img class="w-24 h-24 object-cover rounded-lg" src="/images/chef.webp" alt="Steak Image">
+            <div>
+              <h3 class="text-xl text-white">Салат греческий</h3>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4">
+            <button class="bg-gray-600 text-white px-2 py-1 rounded">-</button>
+            <span class="text-white">2</span>
+            <button class="bg-gray-600 text-white px-2 py-1 rounded">+</button>
+          </div>
+          <div class="flex items-center space-x-4">
+            <span class="text-white">260₽</span>
+            <button class="text-red-500 hover:text-red-700"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+  
+        <!-- Ek Ürün Kartları Yukarıdaki Şablonla Tekrar Edilebilir -->
+      </div>
+  
+      <!-- Sağ Panel -->
+      <div class="bg-gray-900 p-6 rounded-lg">
+        <div class="mb-4">
+          <label class="text-white block mb-2">Промокод</label>
+          <input type="text" class="w-full p-2 bg-gray-800 text-white rounded focus:outline-none" placeholder="Введите промокод">
+        </div>
+  
+        <div class="mb-4">
+          <label class="text-white block mb-2">Бонусные рубли (доступно 258)</label>
+          <input type="number" class="w-full p-2 bg-gray-800 text-white rounded focus:outline-none" placeholder="0">
+        </div>
+  
+        <div class="mb-4">
+          <h3 class="text-white font-semibold mb-2">Доставка</h3>
+          <div class="space-y-2">
+            <label class="flex items-center text-white">
+              <input type="radio" name="delivery" class="mr-2" checked> Самовывоз
+            </label>
+            <label class="flex items-center text-white">
+              <input type="radio" name="delivery" class="mr-2"> Дом ул. Г. Горького, 237
+            </label>
+            <label class="flex items-center text-white">
+              <input type="radio" name="delivery" class="mr-2"> Офис ул. Социалистическая, 16
+            </label>
+            <label class="flex items-center text-white">
+              <input type="radio" name="delivery" class="mr-2"> Другой адрес
+            </label>
+          </div>
+        </div>
+  
+        <div class="border-t border-gray-700 mt-4 pt-4">
+          <div class="flex justify-between text-white mb-2">
+            <span>Итого:</span>
+            <span>1380₽</span>
+          </div>
+          <div class="flex justify-between text-white mb-2">
+            <span>Промокод:</span>
+            <span>-20%</span>
+          </div>
+          <div class="flex justify-between text-white mb-2">
+            <span>Бонусы:</span>
+            <span>-258₽</span>
+          </div>
+          <div class="flex justify-between text-white mb-2">
+            <span>Доставка:</span>
+            <span>100₽</span>
+          </div>
+  
+          <div class="flex justify-between text-white font-bold text-lg">
+            <span>Всего к оплате:</span>
+            <span>946₽</span>
+          </div>
+  
+          <button class="mt-6 w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-500">
+            Оформить заказ
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

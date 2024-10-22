@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcOsbCJJ1OUitm0QkpbtCZQAAAAACAAAAAAAQZgAAAAEAACAAAABWBXe6gj92D3uFZECWIr7iwle6lPzibwaesz/0k5kiIAAAAAAOgAAAAAIAACAAAAAFPQB4TMuEuINc6T7oQ74woIZJAzZyw48vvaBmgNB0vjAAAAAV1mRIl8nwBFng33cdEYSG95yuD6USs3AfjNkZ1wD7nliLgWX2Hiz5qK9zo+K4xVVAAAAA2GVRXgdb/8z7hYDKGmpAMLZ+cXIJHMW0L0kV3A4vADmU5TryvYE2jDFgJOAFZH5xPpQM7/4fWGd+ndqwXjUjXg==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://mehmetmutlu.online/</_PublishTargetUrl>
+    <History>False|2024-10-15T12:30:49.2143104Z;False|2024-10-15T15:29:17.4785035+03:00;False|2024-10-15T15:27:58.5834968+03:00;False|2024-10-15T15:25:48.1044632+03:00;False|2024-10-15T15:23:12.0977530+03:00;False|2024-10-15T14:54:41.2572582+03:00;False|2024-10-15T14:53:25.6363820+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/09/2024 13:00:34</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/15/2024 15:08:13</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>01/16/2023 18:41:56</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>04/09/2023 08:58:02</publishTime>
+    </File>
+    <File Include="AWSSDK.Core.dll">
+      <publishTime>11/09/2022 19:47:34</publishTime>
+    </File>
+    <File Include="AWSSDK.SecurityToken.dll">
+      <publishTime>11/09/2022 19:47:36</publishTime>
+    </File>
+    <File Include="DnsClient.dll">
+      <publishTime>06/10/2022 23:37:22</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 23:14:12</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.deps.json">
+      <publishTime>10/15/2024 15:29:41</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.dll">
+      <publishTime>10/15/2024 15:29:41</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.exe">
+      <publishTime>10/15/2024 15:29:41</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.pdb">
+      <publishTime>10/15/2024 15:29:41</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.runtimeconfig.json">
+      <publishTime>10/15/2024 15:29:41</publishTime>
+    </File>
+    <File Include="MongoDB.Bson.dll">
+      <publishTime>09/19/2024 02:15:04</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.Core.dll">
+      <publishTime>09/19/2024 02:15:12</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.dll">
+      <publishTime>09/19/2024 02:15:34</publishTime>
+    </File>
+    <File Include="MongoDB.Libmongocrypt.dll">
+      <publishTime>08/28/2024 02:05:10</publishTime>
+    </File>
+    <File Include="runtimes/linux/native/libmongocrypt.so">
+      <publishTime>08/03/2024 23:19:40</publishTime>
+    </File>
+    <File Include="runtimes/osx/native/libmongocrypt.dylib">
+      <publishTime>08/03/2024 23:19:58</publishTime>
+    </File>
+    <File Include="runtimes/win/native/mongocrypt.dll">
+      <publishTime>08/03/2024 23:18:36</publishTime>
+    </File>
+    <File Include="SharpCompress.dll">
+      <publishTime>11/22/2021 12:21:32</publishTime>
+    </File>
+    <File Include="Snappier.dll">
+      <publishTime>01/23/2021 20:43:32</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>01/11/2023 09:48:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>01/11/2023 09:48:24</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/15/2024 15:29:41</publishTime>
+    </File>
+    <File Include="ZstdSharp.dll">
+      <publishTime>10/18/2023 19:06:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

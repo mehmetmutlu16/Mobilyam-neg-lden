@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\background.png",
+      "PackagePath": "staticwebassets\\images\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\chef.webp",
+      "PackagePath": "staticwebassets\\images\\chef.webp"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\chickencharga.webp",
+      "PackagePath": "staticwebassets\\images\\chickencharga.webp"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\chickentikka.jpg",
+      "PackagePath": "staticwebassets\\images\\chickentikka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\desichowmain.webp",
+      "PackagePath": "staticwebassets\\images\\desichowmain.webp"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\kebap.jpg",
+      "PackagePath": "staticwebassets\\images\\kebap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\source\\repos\\Mobilyaminegolden\\Mobilyaminegolden\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Mobilyaminegolden.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Mobilyaminegolden.props",
+      "PackagePath": "build\\Mobilyaminegolden.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Mobilyaminegolden.props",
+      "PackagePath": "buildMultiTargeting\\Mobilyaminegolden.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Mobilyaminegolden.props",
+      "PackagePath": "buildTransitive\\Mobilyaminegolden.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>
+    </EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.mehmetmutlu.online/httpdocs/</_PublishTargetUrl>
+    <History>False|2024-10-18T11:13:00.9206091Z;False|2024-10-18T14:00:42.7056708+03:00;False|2024-10-18T13:55:53.8668303+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/09/2024 13:00:34</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/15/2024 15:41:18</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>01/16/2023 18:41:56</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>04/09/2023 08:58:02</publishTime>
+    </File>
+    <File Include="AWSSDK.Core.dll">
+      <publishTime>11/09/2022 19:47:34</publishTime>
+    </File>
+    <File Include="AWSSDK.SecurityToken.dll">
+      <publishTime>11/09/2022 19:47:36</publishTime>
+    </File>
+    <File Include="DnsClient.dll">
+      <publishTime>06/10/2022 23:37:22</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>11/12/2018 20:28:34</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.Extensions.dll">
+      <publishTime>11/12/2018 20:29:40</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>11/12/2018 20:29:28</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/30/2018 19:29:02</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.dll">
+      <publishTime>04/30/2018 19:29:02</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>11/12/2018 20:29:30</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>05/16/2018 00:01:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>05/16/2018 00:01:34</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 23:14:12</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.deps.json">
+      <publishTime>10/18/2024 14:10:18</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.dll">
+      <publishTime>10/18/2024 14:10:18</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.exe">
+      <publishTime>10/18/2024 14:10:18</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.pdb">
+      <publishTime>10/18/2024 14:10:18</publishTime>
+    </File>
+    <File Include="Mobilyaminegolden.runtimeconfig.json">
+      <publishTime>10/18/2024 14:10:19</publishTime>
+    </File>
+    <File Include="MongoDB.Bson.dll">
+      <publishTime>09/19/2024 02:15:04</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.Core.dll">
+      <publishTime>09/19/2024 02:15:12</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.dll">
+      <publishTime>09/19/2024 02:15:34</publishTime>
+    </File>
+    <File Include="MongoDB.Libmongocrypt.dll">
+      <publishTime>08/28/2024 02:05:10</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.Bson.dll">
+      <publishTime>03/22/2017 14:01:20</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 20:44:14</publishTime>
+    </File>
+    <File Include="runtimes/linux/native/libmongocrypt.so">
+      <publishTime>08/03/2024 23:19:40</publishTime>
+    </File>
+    <File Include="runtimes/osx/native/libmongocrypt.dylib">
+      <publishTime>08/03/2024 23:19:58</publishTime>
+    </File>
+    <File Include="runtimes/win/native/mongocrypt.dll">
+      <publishTime>08/03/2024 23:18:36</publishTime>
+    </File>
+    <File Include="SharpCompress.dll">
+      <publishTime>11/22/2021 12:21:32</publishTime>
+    </File>
+    <File Include="Snappier.dll">
+      <publishTime>01/23/2021 20:43:32</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>01/11/2023 09:48:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>01/11/2023 09:48:24</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>05/15/2018 16:29:40</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/18/2024 14:10:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/background.png">
+      <publishTime>10/17/2024 21:54:17</publishTime>
+    </File>
+    <File Include="wwwroot/images/chickencharga.webp">
+      <publishTime>10/18/2024 12:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/images/chickentikka.jpg">
+      <publishTime>10/18/2024 12:45:00</publishTime>
+    </File>
+    <File Include="wwwroot/images/desichowmain.webp">
+      <publishTime>10/18/2024 12:45:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/kebap.jpg">
+      <publishTime>10/18/2024 12:44:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/logo.jpeg">
+      <publishTime>10/17/2024 21:30:16</publishTime>
+    </File>
+    <File Include="wwwroot/images/logo.png">
+      <publishTime>10/17/2024 21:30:59</publishTime>
+    </File>
+    <File Include="ZstdSharp.dll">
+      <publishTime>10/18/2023 19:06:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
