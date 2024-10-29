@@ -9,15 +9,25 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mobilyaminegolden
 build_property.RootNamespace = Mobilyaminegolden
-build_property.ProjectDir = C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\Mobilyam-neg-lden\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden
+build_property.MSBuildProjectDirectory = C:\Users\mehme\source\repos\Mobilyaminegolden\Mobilyaminegolden\Mobilyam-neg-lden
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mehme/source/repos/Mobilyaminegolden/Mobilyaminegolden/Views/Home/Index.cshtml]
+[C:/Users/mehme/source/repos/Mobilyaminegolden/Mobilyaminegolden/Mobilyam-neg-lden/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/source/repos/Mobilyaminegolden/Mobilyaminegolden/Mobilyam-neg-lden/Views/Home/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/source/repos/Mobilyaminegolden/Mobilyaminegolden/Mobilyam-neg-lden/Views/Home/Sepet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXBldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/source/repos/Mobilyaminegolden/Mobilyaminegolden/Mobilyam-neg-lden/Views/Shared/Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
